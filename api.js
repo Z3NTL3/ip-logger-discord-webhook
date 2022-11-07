@@ -9,7 +9,7 @@
 */
 
 
-var webhook = "your webhook url"
+const webhook = "your webhook url"
 
 async function IP_Info(){
     /**
