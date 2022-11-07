@@ -14,7 +14,7 @@ let webhook = "your webhook url"
 async function IP_Info(){
     /**
      *  Description: On init , fetches IP information of user
-     *  @return {fetch.Body.json()} Return value description
+     *  @return {fetch.Body.json()} Resp Body
      */
     let response = await fetch("http://ip-api.com/json", {
       method: 'GET',
