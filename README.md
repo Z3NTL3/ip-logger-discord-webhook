@@ -3,7 +3,9 @@ Get the IP of the website visitor with additional IP info. Works on static websi
 
 ### How to guide
 Open file ``api.js`` and replace the content inside of the quotes of variable ``webhook`` to your own webhook URL.<br>
-
+```js
+const webhook = "your webhook url"
+```
 Now you are ready to go, import the script on your static html document.<br>
 
 **Example**
