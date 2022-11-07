@@ -20,8 +20,7 @@ async function IP_Info(){
       method: 'GET',
       headers: {
         "cache-control" : "no-cache",
-        "content-type": "application/json",
-        "accept-encoding": "gzip"
+        "content-type": "application/json"
       }
     })
     return response.json()
